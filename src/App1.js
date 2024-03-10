@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function App1(props) {
-  return (
-    <div style={{color:"red"}}>
+   return (
+    <div style={{color:'silver'}}>
       Hello {props.name}. You are {props.age}
-      </div>
-  )
+    </div>
+  );
 }
-App1.defaultProps={name:"Cathy",age:20}
+
+App1.defaultProps = {name: "Cathy", age: 20 };
