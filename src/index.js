@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Feeds from "./Feeds";
+import App15 from "./App15";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <Feeds/>
+    <App15 />
   </>
 );
